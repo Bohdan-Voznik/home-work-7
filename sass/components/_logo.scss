@@ -1,0 +1,13 @@
+.logo {
+  @include font(Raleway, 700, 26px, 1.19, 0.03em, var(--logo-blask-color));
+}
+.page-header__logo {
+  color: var(--logo-blask-color);
+}
+.footer__logo {
+  color: var(--logo-white-color);
+}
+
+.logo__accent {
+  color: var(--accent-color);
+}
